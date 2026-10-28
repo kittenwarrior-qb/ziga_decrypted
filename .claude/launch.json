@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "xiangqi-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "xiangqi-proto", "run", "dev"],
+      "port": 5173
+    }
+  ]
+}

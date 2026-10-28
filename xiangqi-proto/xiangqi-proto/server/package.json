@@ -1,0 +1,14 @@
+{
+  "name": "@xq/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@xq/shared": "*",
+    "socket.io": "^4.8.1"
+  }
+}
